@@ -170,3 +170,42 @@ button {
   font-weight: bold;
   text-align: end;
 }
+
+.CTA-section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.CTA-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 72px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.CTA-box .text-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.CTA-section .main {
+  font-weight: bold;
+}
+
+.CTA-section .sub {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.CTA-section button {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f9faf8;
+}
