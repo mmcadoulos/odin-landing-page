@@ -21,6 +21,14 @@ header {
   padding: 16px 72px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 72px;
+  color: #f9faf8;
+}
+
 @media only screen and (max-width: 800px) {
   header {
     flex-direction: column;
@@ -31,7 +39,7 @@ header {
 
 header,
 .hero,
-.footer {
+footer {
   background-color: #1f2937;
 }
 
